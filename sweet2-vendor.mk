@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sweet2
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/sweet2/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
-    vendor/xiaomi/sweet2/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
     vendor/xiaomi/sweet2/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/sweet2/proprietary/vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Codec_cal.acdb \
     vendor/xiaomi/sweet2/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -238,7 +236,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_cac3 \
     camera.qcom \
     com.qti.chi.override \
-    consumerir.sm6150 \
     fingerprint.fpc.sm6150 \
     libFaceDetectpp-0.5.2 \
     libFaceGrade \
@@ -382,18 +379,7 @@ PRODUCT_PACKAGES += \
     misound_karaokemix_res \
     misound_res_headphone \
     misound_res_spk \
-    libdapparamstorage_v3_6 \
-    libdeccfg_v3_6 \
-    libdlbdsservice_v3_6 \
-    libqtigef_odm \
-    libhwdap_v3_6 \
-    libswdap_v3_6 \
-    vendor.dolby_v3_6.hardware.dms360@2.0-impl \
-    vendor.dolby_v3_6.hardware.dms360@2.0 \
-    libstagefright_soft_ddpdec \
-    manifest_dax_dolby_v3_6.xml \
     batterysecret \
     mi_thermald \
     sensors.qti \
-    thermal-engine \
-    vendor.dolby_v3_6.hardware.dms360@2.0-service
+    thermal-engine
